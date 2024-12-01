@@ -1,0 +1,27 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: yellow;
+
+}
+.grid-item{
+    border: 5px solid red;
+    height: 200px;
+    max-width: 200px;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+.item2{
+    grid-column-start: 5;
+    grid-column-end: 9;
+
+}
